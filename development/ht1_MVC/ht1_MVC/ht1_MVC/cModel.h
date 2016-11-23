@@ -32,6 +32,7 @@ public:
     std::vector<cUser> getAllUsers();
 
     std::vector<std::pair<std::pair<cUser, cBook>, unsigned int> > getUBT();
+    virtual void load() = 0;
 private:
     std::vector<cBook> _books;
     std::vector<cUser> _users;

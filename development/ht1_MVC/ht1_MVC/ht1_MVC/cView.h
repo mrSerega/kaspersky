@@ -42,6 +42,7 @@ public:
     void clearCMD() ;
     void pause();
  
+    void startScreen();
     void printAllBooks() ;
     void printFreeBooks() ;
     void printAllUsers() ;

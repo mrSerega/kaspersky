@@ -5,6 +5,16 @@
 int cUser::_last_id = 0;
 char* cUser::_default_name = "default";
 
+cUser::cUser(char* name):        
+    _id { _last_id++ },
+    _name{ name } 
+{}
+
+cUser::cUser(const char* name) :
+    _id{ _last_id++ },
+    _name{ (char*)name }
+{}
+
 //cUser::cUser(const cUser& rhs) {
 //    throw std::exception("noncopyable object");
 //}

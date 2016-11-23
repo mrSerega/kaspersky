@@ -2,6 +2,10 @@
 
 #include "cView.h"
 
+#include "cLocalStorage.h"
+#include "cCloudStorage.h"
+#include "cIniStorage.h"
+
 cAbstractView::~cAbstractView() {
     //pass
 }
@@ -17,6 +21,7 @@ using namespace std;
 
 void cConsoleView::start(unsigned int curent_time){
     _curent_time = curent_time;
+    //startScreen();
     int com = 1;
     while (com!=0) {
         printMenu();
@@ -25,34 +30,42 @@ void cConsoleView::start(unsigned int curent_time){
         case 1:
             clearCMD();
             printAllBooks();
+            pause();
             break;
         case 2:
             clearCMD();
             printFreeBooks();
+            pause();
             break;
         case 3:
             clearCMD();
             printAllUsers();
+            pause();
             break;
         case 4:
             clearCMD();
             printBadUsers();
+            pause();
             break;
         case 5:
             clearCMD();
             addBookToUser();
+            pause();
             break;
         case 6:
             clearCMD();
             getBookFromUser();
+            pause();
             break;
         case 7:
             clearCMD();
             changeTime();
+            pause();
             break;
         case 8:
             clearCMD();
             printUserBook();
+            pause();
             break;
         default:
             //pass
@@ -61,8 +74,43 @@ void cConsoleView::start(unsigned int curent_time){
     }
 }
 
+void cConsoleView::startScreen() {
+    cout << "===Welcome to the Lib===current time is: "<<_curent_time<<"(days from the date of opening)===\n";
+    cout << "choose a source please:\n";
+    cout << "[0] local storage\n";
+    cout << "[1] ini file\n";
+    cout << "[2] cloud storage\n";
+    cout << ">> ";
+    int com;
+    cin >> com;
+    switch (com)
+    {
+    case 0:
+        delete _model;
+        (*_model) = (*new cLocalStorage());
+        _model->load();
+        break;
+    case 1:
+        delete _model;
+        (*_model) = (*new cIniStorage());
+        _model->load();
+        break;
+    case 2:
+        delete _model;
+        (*_model) = (*new cCloudStorage());
+        _model->load();
+        break;
+    default:
+        cout << "wrong command!\n";
+        pause();
+        clearCMD();
+        startScreen();
+        break;
+    }
+}
+
 void cConsoleView::printMenu()  {
-    pause();
+    //pause();
     clearCMD();
     cout << "====menu====time:"<<_curent_time<<endl;
     cout << "[1] print all books\n";

@@ -1,0 +1,64 @@
+﻿  cBook.cpp
+  cCloudStorage.cpp
+  cController.cpp
+  cIni.cpp
+cIni.cpp(59): warning C4503: std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Insert_hint: длина внутреннего имени объекта в компиляторе превысила максимальное значение, имя усечено
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>,
+              _Pr=std::less<std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>>
+          ]
+cIni.cpp(59): warning C4503: std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Insert_at: длина внутреннего имени объекта в компиляторе превысила максимальное значение, имя усечено
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>,
+              _Pr=std::less<std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>>
+          ]
+cIni.cpp(59): warning C4503: std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Insert_nohint: длина внутреннего имени объекта в компиляторе превысила максимальное значение, имя усечено
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>,
+              _Pr=std::less<std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>>
+          ]
+  cIniStorage.cpp
+cIniStorage.cpp(24): warning C4503: std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Insert_hint: длина внутреннего имени объекта в компиляторе превысила максимальное значение, имя усечено
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>,
+              _Pr=std::less<std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>>
+          ]
+cIniStorage.cpp(24): warning C4503: std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Insert_at: длина внутреннего имени объекта в компиляторе превысила максимальное значение, имя усечено
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>,
+              _Pr=std::less<std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>>
+          ]
+cIniStorage.cpp(24): warning C4503: std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Insert_nohint: длина внутреннего имени объекта в компиляторе превысила максимальное значение, имя усечено
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>,
+              _Pr=std::less<std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>>
+          ]
+  cLocalStorage.cpp
+  cModel.cpp
+  cUser.cpp
+  cView.cpp
+cView.cpp(174): warning C4101: curent_time: неиспользованная локальная переменная
+  main.cpp
+  Создание кода
+  All 1377 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  ht1_MVC.vcxproj -> G:\clouds\GitHub\kaspersky\development\ht1_MVC\ht1_MVC\Release\ht1_MVC.exe
+  ht1_MVC.vcxproj -> G:\clouds\GitHub\kaspersky\development\ht1_MVC\ht1_MVC\Release\ht1_MVC.pdb (Full PDB)

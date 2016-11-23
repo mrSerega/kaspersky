@@ -1,14 +1,22 @@
 #ifndef _C_BOOK_H_
 #define _C_BOOK_H_
 
+
 class cBook {
 public:
     cBook() :
         _id{ _last_id++ },
         _name{ _default_name } {}
+    
     cBook(char* name):
         _id{ _last_id++ },
         _name{ name }{}
+    
+    cBook(const char* name) :
+        _id{ _last_id++ },
+        _name{ (char*)name }
+    {}
+    
     ~cBook();
     char* getName() const;
     void setName(char* name);

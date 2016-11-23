@@ -1,4 +1,4 @@
 ﻿  cView.cpp
-g:\clouds\github\kaspersky\development\ht1_mvc\ht1_mvc\ht1_mvc\cview.cpp(126): warning C4101: curent_time: неиспользованная локальная переменная
+g:\clouds\github\kaspersky\development\ht1_mvc\ht1_mvc\ht1_mvc\cview.cpp(174): warning C4101: curent_time: неиспользованная локальная переменная
   ht1_MVC.vcxproj -> G:\clouds\GitHub\kaspersky\development\ht1_MVC\ht1_MVC\Debug\ht1_MVC.exe
-  ht1_MVC.vcxproj -> G:\clouds\GitHub\kaspersky\development\ht1_MVC\ht1_MVC\Debug\ht1_MVC.pdb (Full PDB)
+  ht1_MVC.vcxproj -> G:\clouds\GitHub\kaspersky\development\ht1_MVC\ht1_MVC\Debug\ht1_MVC.pdb (Partial PDB)

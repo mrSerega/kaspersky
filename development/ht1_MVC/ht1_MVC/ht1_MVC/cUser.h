@@ -6,9 +6,8 @@ public:
     cUser() :
         _id{ _last_id++ },
         _name{ _default_name } {}
-    cUser(char* name) :
-        _id{ _last_id++ },
-        _name{ name } {}
+    cUser(char* name);
+    cUser(const char* name);
     ~cUser();
     char* getName() const;
     void setName(char* name);
