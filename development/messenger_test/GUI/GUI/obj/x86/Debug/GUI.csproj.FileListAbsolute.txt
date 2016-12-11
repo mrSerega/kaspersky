@@ -1,0 +1,17 @@
+G:\clouds\GitHub\kaspersky\development\messenger_test\GUI\GUI\bin\x86\Debug\GUI.exe
+G:\clouds\GitHub\kaspersky\development\messenger_test\GUI\GUI\bin\x86\Debug\GUI.pdb
+G:\clouds\GitHub\kaspersky\development\messenger_test\GUI\GUI\obj\x86\Debug\GUI.csprojResolveAssemblyReference.cache
+G:\clouds\GitHub\kaspersky\development\messenger_test\GUI\GUI\obj\x86\Debug\MainWindow.g.cs
+G:\clouds\GitHub\kaspersky\development\messenger_test\GUI\GUI\obj\x86\Debug\App.g.cs
+G:\clouds\GitHub\kaspersky\development\messenger_test\GUI\GUI\obj\x86\Debug\GUI_MarkupCompile.cache
+G:\clouds\GitHub\kaspersky\development\messenger_test\GUI\GUI\obj\x86\Debug\GUI_MarkupCompile.lref
+G:\clouds\GitHub\kaspersky\development\messenger_test\GUI\GUI\obj\x86\Debug\MainWindow.baml
+G:\clouds\GitHub\kaspersky\development\messenger_test\GUI\GUI\obj\x86\Debug\GUI.g.resources
+G:\clouds\GitHub\kaspersky\development\messenger_test\GUI\GUI\obj\x86\Debug\GUI.Properties.Resources.resources
+G:\clouds\GitHub\kaspersky\development\messenger_test\GUI\GUI\obj\x86\Debug\GUI.csproj.GenerateResource.Cache
+G:\clouds\GitHub\kaspersky\development\messenger_test\GUI\GUI\obj\x86\Debug\GUI.exe
+G:\clouds\GitHub\kaspersky\development\messenger_test\GUI\GUI\obj\x86\Debug\GUI.pdb
+G:\clouds\GitHub\kaspersky\development\messenger_test\GUI\GUI\obj\x86\Debug\Texting.g.cs
+G:\clouds\GitHub\kaspersky\development\messenger_test\GUI\GUI\obj\x86\Debug\Texting.baml
+G:\clouds\GitHub\kaspersky\development\messenger_test\GUI\GUI\obj\x86\Debug\UsersList.g.cs
+G:\clouds\GitHub\kaspersky\development\messenger_test\GUI\GUI\obj\x86\Debug\UsersList.baml
